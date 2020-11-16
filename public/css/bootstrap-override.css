@@ -1,0 +1,91 @@
+.display-4 {
+  font-size: 1.7rem;
+}
+
+@media only screen and (min-width: 767px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+}
+
+.btn-primary {
+  background-color: #353563;
+  color: #fff !important;
+  border: 0;
+  height: 35px;
+}
+
+.btn-danger {
+  color: #fff !important;
+  border: 0;
+  height: 35px;
+}
+
+.btn-label {
+  position: relative;
+  left: -15px;
+  display: inline-block;
+  padding: 6px 12px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px 0 0 3px;
+}
+.btn-labeled {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding: 0 !important;
+  width: 200px !important;
+}
+
+.btn.btn-labelled.btn-sm {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 0 0 15px !important;
+  width: 180px !important;
+}
+
+.btn.btn-labelled.btn-md {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 0 0 15px !important;
+  width: 200px !important;
+}
+
+[class^='btn-']:disabled,
+[class*='btn-']:disabled {
+  background-color: #ccc;
+  border-color: #ccc;
+}
+
+[class^='btn-']:disabled:hover,
+[class*='btn-']:disabled:hover {
+  background-color: #ccc;
+  border-color: #ccc;
+  cursor: default;
+  cursor: not-allowed;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    width: 80vw;
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    width: 80vw;
+    max-width: 1440px;
+  }
+}

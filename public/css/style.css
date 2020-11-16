@@ -1,0 +1,183 @@
+body {
+  background-color: #fbf8ff;
+}
+
+header#header-container {
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+header#header-container #header-primary {
+  color: #fbf8ff;
+  background-color: #353563;
+  padding: 1rem 0;
+}
+
+/* HeaderPrimary/Logo */
+
+header#header-container #header-primary .row .col-lg-2#header-logo {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+header#header-container #header-primary .row .col-lg-2#header-logo img {
+  max-width: 100px;
+}
+
+@media only screen and (min-width: 992px) {
+  header#header-container #header-primary .row .col-lg-2#header-logo {
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+
+  header#header-container #header-primary .row .col-lg-2#header-logo img {
+    max-width: 120px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  header#header-container #header-primary .row .col-lg-2#header-logo img {
+    max-width: 150px;
+  }
+}
+
+/* HeaderPrimary/Title */
+header#header-container #header-primary .row .col-lg-3#header-title {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 992px) {
+  header#header-container #header-primary .row .col-lg-3#header-title {
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+}
+
+/* HeaderPrimary/ButtonPanel */
+header#header-container #header-primary .row .col-lg-7#button-panel {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+header#header-container
+  #header-primary
+  .row
+  .col-lg-7#button-panel
+  button:nth-child(1),
+header#header-container
+  #header-primary
+  .row
+  .col-lg-7#button-panel
+  button:nth-child(2) {
+  margin-right: 0.5rem;
+}
+
+@media only screen and (min-width: 992px) {
+  header#header-container #header-primary .row .col-lg-7#button-panel {
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+/* HeaderSecondary */
+header#header-container #header-secondary {
+  color: #fbf8ff;
+  background-color: #262647;
+  padding: 0.5rem 0;
+}
+
+/* HeaderSecondary/TotalUsedData */
+header#header-container #header-secondary .row .col#total-used-data {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+}
+
+@media only screen and (min-width: 992px) {
+  header#header-container #header-secondary .row .col#total-used-data {
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+/* MAIN */
+main {
+  color: #444;
+}
+
+/* TopPanelContainer */
+main #top-panel-container {
+  margin-bottom: 2rem;
+}
+main #top-panel-container .container {
+}
+main #top-panel-container .container .row {
+  background-color: #efefef;
+  border-radius: 5px;
+}
+/* TopPanelContainer/CurrentQuerySize */
+main #top-panel-container .container .row .col-lg-6#current-query-size {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 1rem;
+}
+/* TopPanelContainer/ExportPanel */
+main #top-panel-container .container .row .col-lg-6#export-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+main #top-panel-container .container .row .col-lg-6#export-panel .btn-primary {
+  margin-left: 0.5rem;
+}
+
+/* QueryContainer */
+main #query-container {
+}
+
+main #query-container .container > .row {
+  background-color: #efefef;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+}
+
+main #query-container .row#query-group {
+  padding: 1rem 0;
+  border-radius: 5px;
+  margin: 1rem 0;
+  background-color: #e5e5e5;
+}
+main #query-container #query-row {
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem 0.5rem;
+  background-color: #dad8d8;
+}
+
+footer#footer-container {
+  margin-top: 2rem;
+}
+
+footer#footer-container #footer-primary {
+  color: #fbf8ff;
+  background-color: #353563;
+}
+
+footer#footer-container #footer-secondary {
+  color: #fbf8ff;
+  background-color: #262647;
+}
